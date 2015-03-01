@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-box .btn{ display:inline-block; width:272px; height:60px; text-align:center; line-height:60px; font-size:26px; color:#fff; background:#01a8ee; -webkit-border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; border-radius:8px; margin-left:0px; margin-top: 0px;}
+
+.introduction{padding-top:30px}
+.introduction p{ text-indent:2em; color:#666; font-size:18px; line-height:24px; }
+
+.detail_info{float:left}
+.detail_info p{white-space:nowrap; text-overflow:ellipsis; overflow:hidden; width:600px}
+
+.jb_info{height:388px; overflow:hidden; font:16px/24px "Microsoft Yahei"; color:#666}
+.jb_info .info_box img{display:block; width:250px; height:290px; float:left}
+.jb_info .info_box .right{float:left; width:710px; margin-left:32px}
+.jb_info .info_box .right h6{color:#000; font-size:24px; font-weight:normal}
+.jb_info .info_box .right strong{font-weight:normal; line-height:46px}
+
+/*关于*/
+.leftBanner{float:left; width:198px; border:1px solid #e6e6e6; padding:10px 0 0 10px}
+.leftBanner a{display:block; height:24px; line-height:24px;color:#000; font-size:20px; font-weight:normal; padding-left:16px; margin-bottom:30px}
+.leftBanner a:hover,.leftBanner .curr{border-left:6px solid #01a8ee; padding-left:10px}
+.about_rt{float:left; width:774px; margin-left:18px}
+.about_rt h4{text-align:center; font-size:36px; line-height:36px; padding:20px 0 35px; font-weight:normal}
+.about_rt p,.conBox p{text-indent:2em; font:16px/26px "Microsoft Yahei"}
+.about_con{display:none}
+/*资讯详情*/
+.newsInfo h4,.vedioInfo h4{font-weight:normal; font-size:24px; padding:40px 0 15px}
+.newsInfo .time,.vedioInfo .time{font-size:16px; color:#666}
+.conBox{padding-top:15px}
+.conBox img{display:block; margin:20px auto; width:1002px}
+/*视频详情*/
+.share{color:#01a8ee; padding-left:20px; background:url(../img/ico_share.png) 0 3px no-repeat; font-size:16px}
+.vedioInfo vedio{width:1002px; height:546px}
+.vedioInfo .ad{display:block; width:1002px}
+.comment textarea{border:1px solid #cfcfcf; padding:5px 15px; line-height:30px; color:#b2b2b2; font-size:18px; width:
+970px; height:185px; margin-bottom:20px}
+.comment .btn_box span{float:left; color:#b2b2b2; font-size:16px; line-height:60px}
+.comment .btn_box input{float:right; background:#01a8ee; width:152px; height:60px; color:#fff; line-height:60px; border:none; text-align:center; padding:0; cursor:pointer}
+.comment ul{clear:both}
+.comment li{height:90px; padding:20px 0; border-bottom:1px solid #ededed}
+.comment li img{float:left; width:90px; height:90px}
+.comment .comment_word{float:left; width:730px; line-height:32px; font-size:18px; margin:0 0 0 20px; overflow:hidden; height:90px}
+.comment .date{float:right; color:#b8bac0; font-size:18px; font-family:"Arial"; margin-top:30px}
+.comment .bot{text-align:center; font-weight:normal; color:#000; font-size:24px; display:block; background:#fff; margin-top:-1px; padding-top:20px; line-height:30px; cursor:pointer}
+
+
+
+/*导师详情页面*/
+.ibimg_tag {
+position: absolute;
+top: 10px;
+left: 10px;
+background-color: #01a8ee;
+padding: 3px 10px;
+color: #fff;
+font-size: 20px;
+}
+.ibimg{
+position: relative;
+}
+.iinfo{
+width: 609px;
+
+margin-left: 270px;
+margin-top: -190px;
+}
+.introduction_block{
+border-bottom: 1px solid #e6e6e6;
+padding-bottom: 30px;
+margin-top: 30px;
+height: 280px;
+}
+.ititle{
+color: #000;
+font-size: 24px;
+}
+.iteachter {
+color: #666;
+font-size: 16px;
+}
+.ctags {
+margin-left: 5px;
+background-color: #f6f6f6;
+padding: 0px 5px;
+font-size: 16px;
+}
+.ttag{
+font-size: 16px;
+}
+.idesc {
+color: #666;
+font-size: 16px;
+overflow: hidden;
+}
+.iprice {
+color: #666;
+font-size: 16px;
+}
+.price {
+color: #01a8ee;
+}
+.ibutton {
+background: url(../img/listbuttonbg.png) no-repeat scroll center center;
+width: 270px;
+height: 48px;
+font-size: 16px;
+line-height: 48px;
+text-align: center;
+}
+.ibutton a {
+color: #fff;
+font-size: 16px;
+height: 48px;
+line-height: 48px;
+font-weight: bold;
+background: url(../img/sanjiao.png) no-repeat scroll 175px center;
+width: 270px;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

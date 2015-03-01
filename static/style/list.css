@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.cmbody .list{ margin-top:2px;}
+.cmbody .list .tag .ltat{ color:#fff;}
+.cmbody .list .tag .ltat div,.cmbody .list .tab a{ float:left; background-color:#bcbcbc; height:55px; width:166px; text-align:center; line-height:55px; font-size:22px; cursor:pointer; margin:0 3px 1px 0}
+.cmbody .list .tag .ltat .check,.cmbody .list .tag .ltat div:hover,.cmbody .list .tab a:hover,.cmbody .list .tab .curr{ background-color:#01a8ee;}
+.cmbody .list .tag .rtag div{ float:left; text-align:center; font-size:18px; cursor:pointer; margin-top:20px;}
+.cmbody .list .tag .rtag  .check{ color:#01a8ee; border-bottom:1px solid #01a8ee; padding-bottom:5px;}
+
+.cmbody .list .info{ margin-top:10px; clear:both}
+/* .cmbody .list .info .iblock{ border-bottom:1px solid #e6e6e6; padding-bottom:30px; margin-top:30px; height:280px} */
+.cmbody .list .info .iblock{ border-bottom:1px solid #e6e6e6; padding-bottom:30px; margin-top:30px; }
+.cmbody .list .info .iblock .iimg{ position:relative;}
+.cmbody .list .info .iblock .iimg .itag{ position:absolute; top:10px; left:10px; background-color:#01a8ee; padding:3px 10px; color:#fff; font-size:20px;}
+
+.cmbody .list .info .iblock .iinfo{ width:609px; margin-left:20px;}
+.cmbody .list .info .iblock .iinfo .ititle{ color:#000; font-size:24px; line-height:30px;}
+.cmbody .list .info .iblock .iinfo .iteachter{ color:#666; font-size:16px;}
+.cmbody .list .info .iblock .iinfo .ctag{ height:25px; line-height:25px; font-size:16px;}
+.cmbody .list .info .iblock .iinfo .ctags{ margin-left:5px; background-color:#f6f6f6; padding:0px 5px;}
+.cmbody .list .info .iblock .iinfo .idesc{ color:#666; font-size:16px; overflow:hidden}
+.cmbody .list .info .iblock .iinfo .iprice{ color:#666; font-size:16px;}
+.cmbody .list .info .iblock .iinfo .iprice .price{ color:#01a8ee}
+.cmbody .list .info .iblock .iinfo .ibutton{ background:url(../img/listbuttonbg.png) no-repeat scroll center center; width:270px; height:48px; font-size:16px; line-height:48px; text-align:center;}
+.cmbody .list .info .iblock .iinfo .ibutton a{ color:#fff; font-size:16px; height:48px; line-height:48px; font-weight:bold; background:url(../img/sanjiao.png) no-repeat scroll 175px center; width:270px; display:block;}
+
+.member_number{ font-size:18px; height:48px; line-height:48px; text-align:center; margin-left:20px; color:#666;}
+
+/*video list*/
+.cmbody .list .info .vblock{}
+.cmbody .list .info .vblock .vimg{ cursor:pointer; position:relative}
+.cmbody .list .info .vblock .vtitle{ font-size:24px; color:#000; width:332px ; margin:0px auto; line-height:28px; cursor:pointer; line-height:32px; margin-top:5px}
+.cmbody .list .info .vblock .vimg img{display:block; width:332px; height:180px}
+.cmbody .list .info .vblock .vimg i{position:absolute; left:50%; top:50%; width:60px; height:60px; background:url(../img/ico_play.png) no-repeat; margin:-30px 0 0 -30px}
+
+/*资讯列表*/
+.newslist{padding-top:0px; clear:both}
+.newslist .imgBox{float:left}
+.newslist .imgBox img{display:block; width:285px; height:160px}
+.newslist li{padding:20px 0; border-bottom:1px solid #f5f5f5}
+.newslist .news_info{float:right; width:680px}
+.newslist .news_info a{font-size:24px; color:#000}
+.newslist .news_info p{color:#666; height:70px; overflow:hidden; font-size:16px; line-height:24px; margin:8px 0 16px}
+.newslist .news_info .label{color:#999; font-size:16px}
+.newslist .news_info .label span{color:#01a8ee}
+
+
+
+
+
+
+
+
+
+
+
+
+

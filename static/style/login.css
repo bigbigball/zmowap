@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.cmbody .block{ width:1003px; margin:70px auto 0px;}
+.cmbody .block .action{ height:398px; width:486px; border:1px solid #cfcfcf;margin-left:0px;}
+.cmbody .block .action .action_info{ border-top:5px solid #01a8ee;}
+.cmbody .block .action .action_info .action_title{color:#666666; font-size:20px; height:50px; line-height:80px; text-align:center;}
+.cmbody .block .action .action_info .action_text{ width:420px; margin:45px auto 0px; text-align:center;}
+.cmbody .block .action .action_info .action_text input{ height:50px; width:415px; padding-left:10px; line-height:50px; font-size:18px; color:#666666; background:url(../img/input.png) no-repeat scroll center center;}
+.cmbody .block .action .action_info .remember{ width:420px; margin:25px auto 0px; }
+.cmbody .block .action .action_info .remember .left{ font-size:22px; height:28px; line-height:28px;color:#666666;}
+.cmbody .block .action .action_info .remember .left .rember_option{ border:1px solid #cfcfcf; height:28px; line-height:28px; width:26px; cursor:pointer}
+.cmbody .block .action .action_info .remember .left .rember_option.active{ background:url(../img/remember.png) no-repeat scroll center center; }
+.cmbody .block .action .action_info .remember .left .rember_text{ margin-left:20px;}
+.cmbody .block .action .action_info .remember .right a{ color:#a8a8a8; font-size:22px; height:28px; line-height:28px;}
+.cmbody .block .action .action_do { width:420px; margin:45px auto 0px;}
+.cmbody .block .action .action_do input{ background:url(../img/buttonbg.png) no-repeat scroll center center; height:50px; width:213px; color:#fff; font-size:26px;}
+.cmbody .block .action .action_do .areg{ height:28px;; line-height:28px; text-align:center;}
+.cmbody .block .action .action_do a{ color:#000; font-size:20px; margin-left:8px;}
+
+/*注册*/
+.cmbody .block .action .reg_type{}
+.cmbody .block .action .reg_type .left{ width:242px; height:55px; line-height:55px; text-align:center; background-color:#f7f7f7; cursor:pointer;}
+.cmbody .block .action .reg_type .ckleft{ border-top:5px solid #01a8ee; height:50px; line-height:50px;}
+.cmbody .block .action .reg_text{ margin:47px auto 0px; width:430px;}
+.cmbody .block .action .reg_text div{}
+.cmbody .block .action .reg_text div input{ background:url(../img/input.png) no-repeat scroll center center; height:50px; line-height:50px; width:413px; padding-left:10px; color:#666; font-size:18px;}
+.reg_button{ width:420px; margin:30px auto 0px;}
+.reg_button div input{ background:url(../img/buttonbg.png) no-repeat scroll center center; height:50px; width:213px; color:#fff; font-size:26px;}
+.alogin{ height:50px; line-height:50px; margin-left:8px; color:#000; font-size:22px;}
+.cmbody .block .action .reg_text .phone_code .phone_code_text{ background:url(../img/inputshort.png) no-repeat scroll center center; width:212px; height:50px;}
+.phone_code_button{ background:url(../img/codebg.png) no-repeat scroll center center; height:50px; width:193px; line-height:50px; text-align:center; display:block; color:#666666;}
+.cmbody .block .action .phone_reg{ margin:10px auto 0px;}
+.tab-content{margin-top:-20px;}
+/*第三方登录*/
+.cmbody .third_login{ width:1003px; margin:0 auto; text-align:center;}
+.cmbody .third_login .third_header{ width:430px; margin:70px auto 0px; text-align:center;}
+.cmbody .third_login .third_header .third_line{ background:url(../img/thirdline.png) repeat-x scroll center center; height:25px; line-height:25px; width:100px;}
+.cmbody .third_login .third_header .third_title{ font-size:26px; color:#000; margin:0px 20px;}
+.cmbody .third_login .third_icon{ width:450px; margin:20px auto 0px; text-align:center;}
+.cmbody .third_login .third_icon div{ width:143px; text-align:center; cursor:pointer}
+
+.tab .tab-pane{ display:none;}
+.tab .tab-pane.active{ display:block; }

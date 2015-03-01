@@ -1,0 +1,82 @@
+@charset "utf-8";/* CSS Document */
+.cmlunbo{ width: 100%; position:relative; height:494px; overflow: hidden;}
+.cmlunbo .lunbo_img{}
+.cmlunbo .lunbo_img div{height:494px; width:1920px; position:absolute; top:0; left:50%; margin-left:-960px; z-index:1}
+.cmlunbo .lunbo_img img{width:1920px; height:494px}
+.cmlunbo .lunbo_img .curr{z-index:2}
+.cmlunbo .button{ width:1003px; position:absolute; top:50%; left:50%; margin-left:-501px; z-index:3}
+.cmlunbo .button .left_button{height:67px; width:67px; float:left; background:url(../img/left.png) no-repeat scroll center left; cursor:pointer;}
+.cmlunbo .button .right_button{height:67px; width:67px; float:right; background:url(../img/right.png) no-repeat scroll center right; cursor:pointer;}
+
+.ctldiv{display: -webkit-box;text-overflow: ellipsis;overflow : hidden;text-overflow: ellipsis;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+
+.cmbody .block{ width:1003px;}
+.cmbody .block .title{ margin:40px auto;}
+.cmbody .block .title .title_line{ background:url(../img/linebg.png) repeat-x center center; float:left; width:43%; height:38px;}
+.cmbody .block .title .title_text{ float:left; width:95px; height:38px; margin:0 20px;}
+.cmbody .block .title .title1{ background:url(../img/title1.png) no-repeat center center;}
+.cmbody .block .title .title2{ background:url(../img/title2.png) no-repeat center center;}
+.cmbody .block .title .title3{ background:url(../img/title3.png) no-repeat center center;}
+.cmbody .block .title .title4{ background:url(../img/title4.png) no-repeat center center;}
+.cmbody .block .title .title5{ background:url(../img/title5.png) no-repeat center center;}
+
+.cmbody .block .info{}
+.cmbody .block .info .bigimg{ background:url(../tmp/tab1.png) no-repeat scroll top center; height:384px; position:relative;}
+.cmbody .block .info .bigimg .desc{ background:url(../img/imgbutton.png) no-repeat scroll right bottom; height:50px; width:272px; position:absolute; bottom:9%; right:5%; cursor:pointer;}
+.cmbody .block .info .imgtab{ width:1003px; margin:1px auto 0px;}
+.cmbody .block .info .imgtab .imgleft{ margin-right:2px;}
+.cmbody .block .info .imgtab .imgblock{ float:left; position:relative; cursor:pointer;}
+.cmbody .block .info .imgtab .imgblock .tabimg img{display:block; width:248px; height:160px}
+.cmbody .block .info .imgtab .imgblock .tabtitle{ position:absolute; bottom:0px; left:0px;}
+.cmbody .block .info .imgtab .imgblock .tabtitle .number{ background-color:#01a8ee; color:#fff; width:53px; height:28px; line-height:28px; font-size:14px; text-align:center;}
+.cmbody .block .info .imgtab .imgblock .tabtitle .content_title{ height:28px; line-height:28px; text-align:center; width:195px; background-color:#000; color:#ffffee; filter:alpha(opacity=80);-moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8;  }
+.cmbody .block .info .imgtab .imgblock .tabword{ position:absolute; top:33%; left:20%; color:#fff; font-size:20px;}
+
+.cmbody .block .info .video_img{}
+.cmbody .block .info .video_img .imglr{ margin-left:3px;margin-right:3px;}
+.cmbody .block .info .video_img .video{ float:left; width:33%;}
+.cmbody .block .info .video_img .video .videoimg{position:relative; display:block}
+.cmbody .block .info .video_img .video .videoimg img{display:block; width:332px; height:180px}
+.cmbody .block .info .video_img .video .videoname{ font-size:18px; color:#333; text-align:center; width:305px; text-align:left; margin:20px auto 0px; display:block}
+.cmbody .block .info .video_img .video .videoimg i{position:absolute; left:50%; top:50%; background:url(../img/ico_play.png) no-repeat; width:60px; height:60px; margin:-30px 0 0 -30px}
+
+.cmbody .block .active{}
+.cmbody .block .active .active_block{ float:left; cursor:pointer;}
+.cmbody .block .active .acitve_relative{ position:relative;}
+.cmbody .block .active .activelr{ margin:0 3px;}
+.cmbody .block .active .active_info{ position:absolute; left:10px; bottom:10px; color:#fff; }
+.cmbody .block .active .active_info .active_title{ font-size:22px;}
+.cmbody .block .active .active_info  .active_desc{ margin-top:10px; font-size:16px; height:30px; line-height:30px;}
+.cmbody .block .active .active_info  .active_desc .active_tag{ display:inline-block; background-color:#01a8ee; padding:0px 10px;}
+
+
+.cmbody .block .newinfo{}
+.cmbody .block .newinfo .newinfo_block{ margin-left: 1px; float:left}
+.cmbody .block .newinfo .newinfo_blocklr{ margin:0px 2px;}
+.cmbody .block .newinfo .newinfo_title{ font-size:24px; width:300px; line-height:30px;margin-top:15px; height:60px; color:#000; overflow:hidden}
+.cmbody .block .newinfo .newinfo_border{ background:url(../img/dian.png) repeat-x top center; width:320px; height:1px; margin:15px 0 12px;}
+.cmbody .block .newinfo .newinfo_desc{ width:300px;color:#666666; font-size:16px; line-height:24px; height:110px; overflow:hidden}
+.cmbody .block .newinfo .newinfo_us{ margin-top:18px; color:#999999; font-size:14px}
+.cmbody .block .newinfo .newinfo_block img{display:block; width:319px; height:180px}
+.cmbody .block .newinfo .more{color:#01a8ee; font-size:14px; line-height:40px}
+.cmbody .block .newinfo a.more {float: right;margin-right:25px}
+
+.cmbody .block .teacher{clear:both}
+.cmbody .block .teacher .teacher_info{ float:left; display:inline; width: 160px; text-align:center; cursor:pointer; height:188px; overflow:hidden}
+.cmbody .block .teacher .teacher_info .teacher_photo{ height:143px; position:relative}
+.cmbody .block .teacher .teacher_info .teacher_photo img{display:block; width:135px; height:135px; margin:auto}
+.cmbody .block .teacher .teacher_info .teacher_photo span{position:absolute; left: 5px; top:0; background:url(../img/rund2.png) no-repeat; width:143px; height:143px; z-index:2;margin-left: 1px;}
+.cmbody .block .teacher .teacher_info:hover .teacher_photo img{width:138px; height:138px}
+.cmbody .block .teacher .teacher_info:hover .teacher_photo span{background: url(../img/rund.png) no-repeat 2px 0; width:143px; height:143px;left: 6px;}
+.cmbody .block .teacher .teacher_info .teacher_name{color:#999; font-size:18px;}
+.cmbody .block .teacher .teacher_info:hover .teacher_name{ color:#01a8ee;}
+.cmbody .block .teacher .teacher_info .teacher_desc{ display:none;}
+.cmbody .block .teacher .teacher_info:hover .teacher_desc{ display:block; line-height:28px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; width:180px; text-align:center; margin:auto; font-size:16px}
+.cmbody .block .teacher .teacher_info:hover .check_phone{ background:url(../img/tbg.png) no-repeat center center;}
+.reg_con {padding: 0 60px;}
+.reg_con {display: none;}
+.reg_con .text:first-child {margin: 30px 0 10px ;}
+.reg_con .text{margin:10px 0;}
+.reg_con input#p_dy_code {width: 315px;    float: left;}
+a.phone_code_button{ background: url(../img/codebg.png) no-repeat right center;  width: 200px; text-align:center; display:block; color:#666666;}
+.reg_con input[type="button"] {margin-top: 15px;    float: left;    display: block;    background: #01a8ee;    height: 62px;    width: 100%;    color: #fff;    font-size: 20px;    font-family: "Microsoft Yahei";    cursor: pointer;}

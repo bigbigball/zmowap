@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 我的订单 */
+.order>.left{ width:200px; border:1px solid #e6e6e6; padding:10px 0 0 10px; }
+.order .content{ margin-left:230px; width:772px; }
+
+.userInfo{ margin-bottom:30px; height:154px; }
+.userInfo .avastar{ float:left; width:187px; height:154px; position:relative; margin-right:20px; }
+.userInfo .avastar .shadow{  position:absolute; width:100%; text-align:center; height:37px; left:0; bottom:0; background:#000; filter:alpha(opacity=60); -ms-filter:progid:DXImageTransform.microsoft.alpha( opacity = 60 ); opacity:.6; }
+.userInfo .avastar .uploadBtn{ position:absolute; width:100%; text-align:center; height:37px; left:0; bottom:0; color:#fff; font-size:16px; line-height:37px;  }
+.userInfo .info{ padding-top:15px; float:left}
+.userInfo .info h2{ font-size:24px; color:#000; margin-bottom:20px; font-weight:normal; }
+.userInfo .info p{ font-size:16px; color:#666; line-height:30px}
+.userInfo .edit{float:right; color:#01a8ee; font-size:16px; line-height:30px; margin-top:10px}
+
+.orderList .title{ background:#01a8ee; height:50px; line-height:50px; color:#fff; font-size:18px; margin-bottom:20px; }
+.orderList .name{ float:left; width:460px; margin-right:60px; }
+.orderList .pay{ float:left; width:110px; text-align:center; }
+<<<<<<< HEAD
+.orderList .status{ float:left; width:120px; text-align:center; margin-top: 42px;}
+=======
+.orderList .status{ float:left; width:100px; text-align:center; }
+>>>>>>> 4b9139596fdccae7a1e24f39a03c6c57967e8db9
+.orderList .title .name{ padding-left:160px; width:300px; }
+.orderList li{ border:1px solid #e6e6e6; height:175px; margin-bottom:20px; }
+.orderList li .detail{ height:35px; background:#f8f8f8; line-height:35px; color:#666; font-size:16px; padding-left:20px; }
+.orderList li .productImg{ width:162px; height:121px; position:relative; margin-right:10px; }
+.orderList li .info{ padding:10px; }
+.orderList li .productImg span{ position:absolute; width:103px; height:28px; line-height:28px; text-align:center; color:#fff; font-size:20px; top:10px; left:10px; background:#01a8ee; }
+.orderList .info .name{ font-size:22px; color:#000; line-height:30px; }
+.orderList .info .pay{ font-size:24px; color:#000; padding-top:15px; }
+.orderList .info .status p{ font-size:22px; color:#000; padding-top:15px; margin-bottom:10px; }
+.orderList .info .status .btn{ display:inline-block; width:84px; height:29px; text-align:center; line-height:29px; font-size:21px; color:#fff; background:url(../img/payBtn.png) no-repeat left top; }
+.orderList .info .status .btn:hover{ background-image:url(../img/pay_active.png); }
+.orderList .info .status .delBtn{ color:#919191; font-size:20px; }
+
+/* 确认订单 */
+.orderSure .link{ font-size:18px; color:#01a8ee; line-height:52px; }
+.orderSure .link:hover{ text-decoration:underline; }
+.procedure .step{ float:left; height:52px; line-height:52px; text-align:center; font-size:24px; color:#fff; }
+.procedure .step1{ background:url(../img/step1.png) no-repeat left top;  width:202px; }
+.procedure .step1.active{ background-image:url(../img/step1_active.png);}
+.procedure .step2{ background:url(../img/step2.png) no-repeat left top; float:left; width:195px; margin-left:-15px; }
+.procedure .step2.active{ background-image:url(../img/step2_active.png);}
+
+.orderContent.mt50{ *margin-top:140px; }
+.orderContent .title{ font-size:24px; color:#000; }
+.orderContent .subTitle{ font-size:16px; color:#666; margin-top:20px; }
+.orderContent .content{ margin-top:20px; font-size:16px; color:#666; line-height:24px; }
+.orderContent .price{ margin-top:50px; font-size:36px;}
+.orderContent .btn-box{ margin-top:65px; }
+.orderContent .btn-box .btn{ display:inline-block; width:372px; height:60px; text-align:center; line-height:60px; color:#fff; font-size:20px; background:url(../img/orderSureBtn.png) no-repeat left top; }
+.orderContent .btn-box .btn:hover{ background-image:url(../img/orderSureBtn_active.png); }
+
+/* 在线支付 */
+/* .payOnline .userInfo{ margin-top:30px; border-bottom:1px solid #e6e6e6; }*/
+.payOnline .userInfo{ margin-top:30px; }
+.payOnline .userInfo p{font-size:24px; line-height:42px; color:#000;}
+.payOnline .price{ font-size:36px; color:#666; }
+.payOnline .tip{ font-size:24px; color:#000; margin-top:40px; }
+
+.payOnline .item-title.mt60{ *margin-top:140px;}
+
+.payOnline .paymentList{ width:1003px; overflow-x:hidden; }
+.payOnline .paymentList li{ float:left; margin-right:50px; margin-bottom:40px; }
+.payOnline .paymentList li.noMr{ margin-right:0;}
+.payOnline .paymentList .radio{ display:inline-block; width:28px; height:28px; background:url(../img/radio.png) no-repeat left top; margin-bottom:35px; margin-right:10px; cursor:pointer; }
+.payOnline .paymentList label{ display:inline-block; width:254px; height:96px; border:1px solid #e6e6e6; cursor:pointer; }
+.payOnline .paymentList .active label{ border-color:#01a8ee; }
+.payOnline .paymentList .active .radio{ background-image:url(../img/radio_select.png); }
+.payOnline .btn-box .payNowBtn{ display:inline-block; width:372px; height:60px; font-size:20px; color:#fff; background:url(../img/payNowBtn.png) no-repeat left top; text-align:center; line-height:60px; }
+.payOnline .btn-box .payNowBtn:hover{ background-image:url(../img/payNowBtn_active.png); }
+
+/* 弹窗 */
+.backdrop{ position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; background:#000; filter:alpha(opacity=60); -ms-filter:progid:DXImageTransform.microsoft.alpha(opacity=60); opacity:.6; display:none; }
+.modal-dialog{ position:fixed; top:0; left:0; bottom:0; right:0; display:table; width:100%; height:100%; display:none; }
+.modal-dialog .modal-content{ display:table-cell; text-align:center; vertical-align:middle; }
+.modal-dialog .modal-body{ display:inline-block; padding:85px 40px 50px; background:#fff; position:relative; }
+.modal-dialog .close{position:absolute; top:30px; right:30px; width:31px; height:31px; text-indent:-999em; background:url(../img/close.png) no-repeat}
+.modal-dialog .close:hover{opacity:0.7}
+.modal-dialog .modal-title{ font-size:34px; color:#000; margin-bottom:35px; }
+.modal-dialog .tipsList li{ font-size:22px; color:#666; margin-bottom:15px; }
+.modal-dialog .btn-box{ margin-top:50px; }
+.modal-dialog .btn-box a{ display:inline-block; width:270px; height:60px; border-radius:6px; font-size:26px; text-align:center; line-height:60px; }
+.modal-dialog .btn-box .done{ background:#01a8ee; color:#fff; margin-right:80px; }
+.modal-dialog .btn-box .done:hover{ background:#019bdb; }
+.modal-dialog .btn-box .change{ border:1px solid #01a8ee; color:#01a8ee; }
+.modal-dialog .link{ display:inline-block; font-size:16px; color:#01a8ee; margin-top:30px; }
+
+/* 成功页面 失败页面 */
+.success,.failure{ padding-top:150px; text-align:center; font-size:18px}
+.success .result,.failure .result{ font-size:30px; color:#1abc9c; margin-bottom:40px; }
+.failure .result{ color:#000; }
+.success .resultTip li{ font-size:18px; text-align:center; margin-bottom:15px; }
+.success .resultTip{ margin-bottom:15px; }
+.success .link a{ font-size:18px; color:#01a8ee; }
+.success .link a:hover{ text-decoration:underline; }
+.success .btn-box,.failure .btn-box{ margin-top:50px; margin-bottom:200px; }
+.success .btn-box a,.failure .btn-box a{ display:inline-block; width:373px; height:60px; text-align:center; line-height:60px; background:#01a8ee; font-size:26px; color:#fff; border-radius:6px; font-size:20px}
+.success .btn-box a:hover,.failure .btn-box a:hover{ background:#019bdb; }
+.success .resultTip .tip1{font-weight:bold}
+
+/* 绑定手机 */
+.bindPhone{ padding:15px 0 0 35px;}
+.bindPhone .phone{ width: 400px; }
+.bindPhone .code{ width:200px; }
+.bindPhone .codeNumber{ display:inline-block; padding:0; text-align:center; width:190px; background:#e8e8e8; margin-left:5px; }
+.bindPhone .submit{ padding:0; background:#01a8ee; width:415px; height:60px; line-height:60px; color:#fff; font:normal 20px/56px "Microsoft Yahei"; cursor:pointer}
+
+/* 绑定手机成功 */
+.bindPhoneSuccess{ padding:15px 0 0 35px; text-align:center; width:750px; }
+.bindPhoneSuccess .successTip{ color:#feb900; font-size:30px; margin-bottom:20px; }
+.bindPhoneSuccess img{display:block; width:100px; margin:80px auto 50px}
+
+/* 未绑定手机 */
+.bindPhoneNoBind{margin-left:35px; padding:60px 0 0 0; text-align:center; width:750px; background:url(img/bindPhoneNobind.png) no-repeat center top; }
+.bindPhoneNoBind .noBind{ height:38px; background:url(/img/icon_warning.png) no-repeat; padding-left:50px; line-height:38px; font-size:20px; color:#ff2828; margin-left:230px; text-align:left; }
+
+/* 密码管理-修改成功 */
+.passwordSuccess{ padding:15px 0 0 35px; text-align:center; width:750px; }
+.passwordSuccess .successTip{ color:#1abc9c; font-size:30px; }
+.passwordSuccess .blue{ text-decoration:underline; margin-left:15px; }
+.passwordSuccess img{width:100px}
+
+/* 密码管理-修改密码 */
+.passwordEdit{ padding:15px 0 0 35px; }
+.passwordEdit .select{ width:400px; height:50px; font-size:20px; line-height:50px; color:#999; padding-left:10px; border:1px solid #cfcfcf; border-radius:4px; background:url(/img/icon_narrow_down.png) no-repeat 375px 20px; cursor:pointer; position:relative; font-weight:normal; }
+.passwordEdit .select ul{ position:absolute; left:0; top:50px; width:425px; border:1px solid #cfcfcf; border-top:none; border-radius:0 0 4px 4px; display:none; background:#fff; }
+.passwordEdit .select li{ padding-left:25px; }
+.passwordEdit .select li:hover{ background:#cfcfcf; color:#fff; }
+.passwordEdit .code{ width:200px; }
+.passwordEdit .codeNumber{ display:inline-block; padding:0; text-align:center; width:190px; background:#e8e8e8; margin-left:5px; }
+.passwordEdit .submit{ padding:0; background:#01a8ee; width:425px; height:60px; line-height:60px; font-size:26px; color:#fff; }
+
+/* 密码管理-验证成功 */
+.passwordSure{ padding:15px 0 0 35px;}
+.passwordSure .tips{ font-size:18px; color:#666; margin-bottom:50px; }
+.passwordSure .input-text{ width:400px; }
+.passwordSure .submit{ padding:0; background:#01a8ee; width:415px; height:60px; line-height:56px; font-size:20px; color:#fff; }
+
+/* 消息 */
+.message{}
+.message .nav-title{ height:54px; }
+.message .nav-title li{ float:left; width:167px; height:54px; text-align:center; line-height:60px; color:#fff; background:#bcbcbc; margin-right:2px; }
+.message .nav-title li a{ font-size:24px; }
+.message .nav-title li.active,.message .nav-title li:hover{ background:#01a8ee; }
+.message .nav-content li{ height:82px; padding-left:7px; padding-bottom:30px; border-bottom:1px solid #e6e6e6; padding-top:30px; }
+.message .nav-content .avastar{ position:relative; float:left; width:80px; height:80px; border:1px solid #bcbcbc; border-radius:40px; margin-right:20px; }
+.message .nav-content .avastar .hot{ position:absolute; top:10px; right:2px; }
+.message .nav-content .avastar .avastarImg{ width:80px; height:80px; border-radius:40px; }
+.message .nav-content .info{ float:left; width:663px; }
+.message .nav-content .info .title{ font-size:20px; color:#000; margin:10px 0; line-height:30px}
+.message .nav-content .info .detail{ font-size:16px; color:#666; }
+.message .nav-content .info .time{ float:right; font-size:16px; color:#666; }
+
+/* 验证邮箱 */
+.emailValidate{ padding:15px 0 0 35px; width:750px; }
+.emailValidate .emailBox{ width:400px; }
+.emailValidate .codeNumber{ display:inline-block; padding:0; text-align:center; width:190px; background:#e8e8e8; margin-left:5px; }
+.emailValidate .codeBox{ width:400px; }
+.emailValidate .submit{ padding:0; background:#01a8ee; width:415px; height:60px; color:#fff; font:20px/56px "Microsoft Yahei"; display:block; margin:auto}
+.emailValidate .successTip{ color:#1abc9c; font-size:30px; text-align:center}
+.emailValidate .failureTip{ color:#403f3d; font-size:30px; text-align:center}
+.emailValidate img{display:block; width:100px; margin:80px auto 50px}
+
+/* 支付失败 */
+.payFailure{ padding:50px 0 50px 35px; text-align:center; width:750px; margin:0 auto; }
+.payFailure .failureTip{ color:#403f3d; font-size:30px; }
+.payFailure .submit{ padding:0; background:#01a8ee; width:425px; height:60px; line-height:60px; font-size:20px; color:#fff; }
+.payFailure img{width:100px}
+
+/* 支付成功 */
+.payEnd{ padding:60px 0 0 35px; text-align:center; width:750px; margin:0 auto; }
+.payEnd .successTip{ color:#1abc9c; font-size:30px; }
+.payEnd .orderInfo{ color:#000; font-size:18px; margin-bottom:15px; }
+.payEnd a{ color:#01a8ee; font-size:18px; text-decoration:underline; }
+.payEnd .submit{ padding:0; background:#01a8ee; width:425px; height:60px; line-height:60px; font-size:20px; color:#fff; cursor:pointer}
+.payEnd img{width:100px}
+
